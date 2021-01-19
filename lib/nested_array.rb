@@ -30,7 +30,7 @@ def sorted_matrix
 end
 
 def matrix_lookup(matrix, row, column)
-  matrix_lookup == (assembled_matrix, row, column)
+  matrix_lookup = (matrix, row, column)
   matrix_lookup == (sorted_matrix, row, column)
 end
 
