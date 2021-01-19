@@ -25,8 +25,8 @@ end
 
 def sorted_matrix
     sorted_matrix = []
-      CONVENTIONAL_PRODUCE.sort!
-      ORGANIC_PRODUCE.sort!
+     sorted_matrix << CONVENTIONAL_PRODUCE.sort
+      ORGANIC_PRODUCE.sort
       sorted_matrix = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
       sorted_matrix
 end
